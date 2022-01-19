@@ -3,7 +3,7 @@ import ScrollspyNav from "react-scrollspy-nav";
 
 function Navigationbar() {
     return <div style={{fontFamily: "Georgia, serif"}}>
-        <ScrollspyNav offset={-20} scrollTargetIds={["about", "event", "fam", "sponsor"]} activeNavClass="active" scrollDuration="100">
+        <ScrollspyNav offset={-20} scrollTargetIds={["about", "schedule", "team", "faq"]} activeNavClass="active" scrollDuration="100">
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top" id="navbar">
                 <Container>
                     <Navbar.Brand href="#home"><h2 style={{color:"red"}}>McGill Student Boxing Club</h2></Navbar.Brand>
