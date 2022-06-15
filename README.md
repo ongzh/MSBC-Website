@@ -1,4 +1,5 @@
-# Website for the McGill Student Boxing Club. Built using React and deployed using Netlify.
+# Official Website for the McGill Student Boxing Club. 
+*Built using React and deployed using Netlify.*
 
 https://mcgillboxing.netlify.app
 
