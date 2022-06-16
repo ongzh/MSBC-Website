@@ -14,7 +14,7 @@ const styles = {
 
 function Schedule(){
     return <div id="schedule" style={{padding: "5%", backgroundColor:"rgb(15,15,15)"}}>
-        <h1 style={{fontFamily: "Georgia, serif", fontSize: "calc(20px + 3vw)", textAlign: "center", color: "red"}}>Schedule</h1>
+        <h1 style={{fontFamily: "Georgia, serif", fontSize: "calc(15px + 3vw)", textAlign: "center", color: "red"}}>Schedule</h1>
         <br/>
         <p style={{fontSize: "20px"}}>We usually train twice a week, on Wednesdays and Sundays. As of right now, classes are located outdoors at Jeanne-Mance Park and will take place weather permitting (we are currently waiting on the green light for indoor classes).
         </p>

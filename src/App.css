@@ -40,3 +40,16 @@
 body{
   color:white;
 }
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 1023px)
+  {
+      html{
+          font-size: 11px;
+      }
+      button{
+          margin: 0;
+      }
+
+}
