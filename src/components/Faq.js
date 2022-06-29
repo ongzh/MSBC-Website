@@ -1,5 +1,5 @@
 function Faq(){
-    return <div id="faq" style={{padding: "5%", backgroundImage:"linear-gradient(rgb(33, 33, 33),rgb(0,0,0))"}}>
+    return <div id="faq" style={{padding: "5%", color: "black", npmbackgroundImage:"linear-gradient(rgb(250, 250, 250),rgb(230,230,230))"}}>
         <h1 style={{fontFamily: "Georgia, serif", fontSize: "calc(15px + 3vw)", textAlign: "center", color: "crimson"}}>Frequently Asked Questions</h1>
         <br/>
         <ul style = {{fontSize: "25px"}}>

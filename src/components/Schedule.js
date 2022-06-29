@@ -12,7 +12,6 @@ const styles = {
     },
     cardText:{
         color: 'black',
-        
     }
 }
 
