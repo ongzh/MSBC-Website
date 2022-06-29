@@ -6,7 +6,7 @@ function Navigationbar() {
         <ScrollspyNav offset={-20} scrollTargetIds={["about", "schedule", "team", "faq"]} activeNavClass="active" scrollDuration="100">
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top" id="navbar">
                 <Container>
-                    <Navbar.Brand href="#home"><h2 style={{color:"red"}}>McGill Student Boxing Club</h2></Navbar.Brand>
+                    <Navbar.Brand href="#home"><h2 style={{color:"crimson"}}>McGill Student Boxing Club</h2></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">

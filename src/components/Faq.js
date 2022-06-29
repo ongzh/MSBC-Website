@@ -1,6 +1,6 @@
 function Faq(){
     return <div id="faq" style={{padding: "5%", backgroundImage:"linear-gradient(rgb(33, 33, 33),rgb(0,0,0))"}}>
-        <h1 style={{fontFamily: "Georgia, serif", fontSize: "calc(15px + 3vw)", textAlign: "center", color: "red"}}>Frequently Asked Questions</h1>
+        <h1 style={{fontFamily: "Georgia, serif", fontSize: "calc(15px + 3vw)", textAlign: "center", color: "crimson"}}>Frequently Asked Questions</h1>
         <br/>
         <ul style = {{fontSize: "25px"}}>
             <li>How do i join the club?</li>
