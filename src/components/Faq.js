@@ -17,7 +17,7 @@ function Faq(){
         <ul style = {{fontSize: "25px"}}>
             <li>Do I need to bring my own equipment?</li>
         </ul>
-        <p>The club provides equipment to get you started. However, it is strongly encouraged for members to purchase their own handwraps and gloves. You will need your own mouthguard to spar.</p>
+        <p>The club provides equipment to get you started. However, it is strongly encouraged for members to purchase their own handwraps and gloves. You will need your own mouthguard to spar (optional).</p>
         <ul style = {{fontSize: "25px"}}>
             <li>How do I pay the membership fees?</li>
         </ul>

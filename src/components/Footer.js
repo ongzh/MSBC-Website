@@ -9,7 +9,7 @@ function Footer() {
         height: "100px",
         margin: "0 auto",
     };
-    return <div style={{backgroundColor: "black"}}> 
+    return <div style={{backgroundImage:"linear-gradient(rgb(60, 60, 60),rgb(30,30,20))"}}> 
         <Container style={{height: "calc(110px + 15vh)"}} fluid>
             <br/>
             <Row><Image src={logo} style={fixed_logo} roundedCircle></Image></Row>
