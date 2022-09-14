@@ -7,7 +7,7 @@ import Header from './components/Header';
 import Schedule from './components/Schedule';
 import Footer from './components/Footer';
 import Team from './components/Team';
-import Waiver from './components/Waiver';
+import Membership from './components/Membership';
 import Faq from './components/Faq';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <About/>
       <Schedule/>
       <Team/>
-      <Waiver/>
+      <Membership/>
       <Faq/>
       <Footer/>
     </div>

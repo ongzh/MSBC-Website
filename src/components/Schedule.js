@@ -32,13 +32,13 @@ function Schedule(){
             <li>Membership fees are $55 per semester or $100 for two semesters.</li>
             <li style={{color: "crimson"}}> Due to an increase in costs of room booking at the McGill Gym, there has been an increase in prices of our membership fees. </li>
         </ul>
-        <h2 style={{fontFamily: "Georgia, serif"}}>Fall 2021</h2>
+        <h2 style={{fontFamily: "Georgia, serif"}}>Fall 2022</h2>
         <ul style={{fontSize: "20px"}}>
-            <li>Friday: 3.00P.M.- 4.30P.M.</li>
+            <li>Friday: 3.00P.M.- 4.30P.M. (Starting Sept 23)</li>
             <li>Sunday: 3.30P.M. - 5.30P.M.</li>
             <li>Location: Spin Room (Inside the McGill Gym, B2)</li>
         </ul>
-        <h2 style={{fontFamily: "Georgia, serif"}}>Winter 2022</h2>
+        <h2 style={{fontFamily: "Georgia, serif"}}>Winter 2023</h2>
         <ul style={{color:"crimson", fontSize: "20px"}}>
             <li>
             T.B.A. January 2023
