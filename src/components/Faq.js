@@ -26,6 +26,10 @@ function Faq(){
             <li>Do I show have to show up to both training sessions per week?</li>
         </ul>
         <p>You can show up whenever you like. However, staying commited and training regularly is the fastest way to improve!</p>
+        <ul style = {{fontSize: "25px"}}>
+            <li>If i submitted the waiver last academic year, do I have to resubmit it again?</li>
+        </ul>
+        <p>Yes, we will require you to resubmit it every academic year.</p>
     </div>;
 
 }

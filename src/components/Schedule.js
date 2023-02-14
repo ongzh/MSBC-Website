@@ -19,7 +19,7 @@ function Schedule(){
     return <div id="schedule" style={{padding: "5%", backgroundColor: "rgba(250, 250, 250, 0.7)"}}>
         <h1 style={{fontFamily: "Georgia, serif", fontSize: "calc(15px + 3vw)", textAlign: "center", color: "crimson"}}>Schedule</h1>
         <br/>
-        <p style={{fontSize: "23px", color: "crimson"}}><strong> Current Schedule (Updated Fall 2022). </strong>
+        <p style={{fontSize: "23px", color: "crimson"}}><strong> Current Schedule (Updated Winter 2023). </strong>
         </p>
        
         <Card className="m-2 border-0 shadow" style={styles.card}>
@@ -39,10 +39,10 @@ function Schedule(){
             <li>Location: Spin Room (Inside the McGill Gym, B2)</li>
         </ul>
         <h2 style={{fontFamily: "Georgia, serif"}}>Winter 2023</h2>
-        <ul style={{color:"crimson", fontSize: "20px"}}>
-            <li>
-            T.B.A. January 2023
-            </li>
+        <ul style={{fontSize: "20px"}}>
+            <li>Thursday: 4.45P.M.- 6.15P.M. (Starting Jan 19)</li>
+            <li>Sunday: 4.00P.M. - 6.00P.M.</li>
+            <li>Location: Spin Room (Inside the McGill Gym, B2)</li>
         </ul>
               </Card.Text>
               </Card.Body>
