@@ -2,6 +2,7 @@
 *Built using React and deployed using Netlify.*
 
 https://mcgillboxing.netlify.app
+https://mcgillstudentboxingclub.ca
 
 # Getting Started with Create React App
 
