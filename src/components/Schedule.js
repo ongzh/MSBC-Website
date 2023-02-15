@@ -27,11 +27,7 @@ function Schedule(){
             <Col>
               <Card.Body>
               <Card.Text as="h4" style={styles.cardText}>
-              <h2 style={{fontFamily: "Georgia, serif"}}>Membership fees</h2>
-        <ul style={{fontSize: "20px"}}>
-            <li>Membership fees are $55 per semester or $100 for two semesters.</li>
-            <li style={{color: "crimson"}}> Due to an increase in costs of room booking at the McGill Gym, there has been an increase in prices of our membership fees. </li>
-        </ul>
+              
         <h2 style={{fontFamily: "Georgia, serif"}}>Fall 2022</h2>
         <ul style={{fontSize: "20px"}}>
             <li>Friday: 3.00P.M.- 4.30P.M. (Starting Sept 23)</li>

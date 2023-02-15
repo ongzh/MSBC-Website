@@ -27,6 +27,10 @@ function Faq(){
         </ul>
         <p>You can show up whenever you like. However, staying commited and training regularly is the fastest way to improve!</p>
         <ul style = {{fontSize: "25px"}}>
+            <li>I can only show up to one session per week, can I get a discount in my membership fees?</li>
+        </ul>
+        <p>Unfortunately, to remain fair to all our members, we cannot give a discount in membership</p>
+        <ul style = {{fontSize: "25px"}}>
             <li>If i submitted the waiver last academic year, do I have to resubmit it again?</li>
         </ul>
         <p>Yes, we will require you to resubmit it every academic year.</p>
