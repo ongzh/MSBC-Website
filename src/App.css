@@ -39,6 +39,12 @@
 
 body{
   color:white;
+  font-family: 'Roboto';
+}
+
+.section-header{
+  font-weight: 500;
+  font-family: 'Work Sans';
 }
 
 @media only screen 
