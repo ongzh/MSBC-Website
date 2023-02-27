@@ -39,11 +39,12 @@
 
 body{
   color:white;
-  font-family: 'Roboto';
+  font-family: 'Work Sans';
+  
 }
 
 .section-header{
-  font-weight: 500;
+  font-weight: bold;
   font-family: 'Work Sans';
 }
 
