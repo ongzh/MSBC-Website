@@ -1,14 +1,15 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
 import ScrollspyNav from "react-scrollspy-nav";
-import logo from "../data/mbc-front-logo.png"
+import logo from "../data/punch-man-logo.png"
 
 
 function Navigationbar() {
     return <div>
         <ScrollspyNav offset={-20} scrollTargetIds={["about", "schedule", "team", "membership","faq"]} activeNavClass="active" scrollDuration="100">
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top" id="navbar">
-                <Container>
-                    <Navbar.Brand color="crimson" href="#home" >McGill Student Boxing Club</Navbar.Brand>
+                <Container fluid>
+                    <Navbar.Brand href="#home" className="nav-logo">
+                        <span><img alt="" src={logo} height='30px' vertical-align='text-bottom'/>McGill Student Boxing Club</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
