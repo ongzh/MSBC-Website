@@ -1,12 +1,12 @@
 import "../styles/Faq.css"
 
 function Faq(){
-    return <div id="faq" style={{padding: "5%", color: "black",backgroundColor:"rgba(230, 230, 230, 0.5)"}}>
-        <h1 style={{fontSize: "calc(15px + 3vw)", textAlign: "center", color: "crimson"}}>Frequently Asked Questions</h1>
+    return <div id="faq">
+        <h1 className="section-header">Frequently Asked Questions</h1>
         <br/>
         <ul>
             <li>How do i join the club?</li>
-        </ul>
+        </ul >
         <p >Simply show up to one of our training sessions and approach one of our friendly execs!</p>
         <ul>
             <li>Are beginners allowed?</li>
@@ -31,7 +31,7 @@ function Faq(){
         <ul>
             <li>I can only show up to one session per week, can I get a discount in my membership fees?</li>
         </ul>
-        <p>Unfortunately, to remain fair to all our members, we cannot give a discount in membership</p>
+        <p>Unfortunately, to remain fair to all our members, we cannot give a discount in membership.</p>
         <ul>
             <li>If i submitted the waiver last academic year, do I have to resubmit it again?</li>
         </ul>

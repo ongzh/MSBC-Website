@@ -9,21 +9,25 @@ function Footer() {
         height: "100px",
         margin: "0 auto",
     };
-    return <div style={{background:"black"}}> 
+    return <div style={{backgroundColor: 'rgba(30,30,30,1)'}}> 
         <Container style={{height: "calc(110px + 15vh)"}} fluid>
             <br/>
             <Row><Image src={logo} style={fixed_logo} roundedCircle></Image></Row>
             <br/>
             <Row>
-                <Col align="center" style={{paddingLeft: "5vw"}}><a href="https://www.facebook.com/groups/146481348826920"><FaFacebookSquare color="#6bbcff" size="5vh"/></a></Col>
-                <Col align="center"><a href="https://www.instagram.com/therealmcgillfightclub/"><FaInstagramSquare size="5vh" color="#E1306C"/></a></Col>
-                <Col align="center" style={{paddingRight: "5vw"}}><a href="mailto:mcgillboxingclub@ssmu.ca"><AiOutlineMail size="5vh" color="#6bbcff" /></a></Col>
+                <Col align="center" style={{paddingLeft: "6vw"}}><a href="https://www.facebook.com/groups/146481348826920"><FaFacebookSquare color="#6bbcff" size="6vh"/></a></Col>
+                <Col align="center"><a href="https://www.instagram.com/mcgillssmuboxing/"><FaInstagramSquare size="6vh" color="#E1306C"/></a></Col>
+                <Col align="center" style={{paddingRight: "6vw"}}><a href="mailto:mcgillboxingclub@ssmu.ca"><AiOutlineMail size="6vh" color="#6bbcff" /></a></Col>
             </Row>
         </Container>
-        <div align="center">
+        <div id='copyright'>
             &copy; McGill Student Boxing Club 2022
         </div>
-        <br/>
+        <div id='credits'>
+            Designed & Developed by <span id='ozh'> OZH</span>
+        </div>
+
+       
     </div>;
 }
 

@@ -17,7 +17,7 @@ const styles = {
 
 function Schedule(){
     return <div id="schedule" style={{padding: "5%", backgroundColor: "rgba(250, 250, 250, 0.7)"}}>
-        <h1 style={{fontSize: "calc(15px + 3vw)", textAlign: "center", color: "crimson"}}>Schedule</h1>
+        <h1 className="section-header">Schedule</h1>
         <br/>
         <h2 style={{fontSize: "23px", color: "crimson"}}><strong> Current Schedule (Updated Winter 2023). </strong>
         </h2>

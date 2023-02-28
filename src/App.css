@@ -37,24 +37,6 @@
   }
 }
 
-body{
-  color:white;
-  font-family: 'Work Sans';
-  
-}
-
-.section-header{
-  font-weight: bold;
-  font-family: 'Work Sans';
-}
-
-.nav-logo{
-  color: crimson !important;
-}
-.nav-logo img{
-  vertical-align: text-bottom;
-}
-
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 1023px)
@@ -67,3 +49,48 @@ body{
       }
 
 }
+
+body{
+  color:black;
+  font-family: 'Work Sans';
+  
+}
+
+.section-header{
+  font-family: 'Work Sans';
+  color:crimson;
+  text-align: center;
+  font-size: 2.2rem;
+
+}
+
+.nav-logo{
+  color: crimson !important;
+}
+.nav-logo img{
+  vertical-align: text-bottom;
+}
+
+#copyright{
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+}
+
+#credits{
+  font-weight:lighter;
+  text-align: right;
+  color: white;
+  font-size:0.6rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+
+}
+
+#ozh{
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 0.7rem;
+  color: lightskyblue;
+}
+
