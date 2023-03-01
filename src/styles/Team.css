@@ -1,0 +1,63 @@
+
+.coach-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.coach-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .coach-profile-picture {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to bottom, crimson, darkorange) border-box;
+    border: 0.25rem solid transparent;
+  }
+  
+  .profile-info {
+    text-align: center;
+  }
+
+  p{
+    margin-bottom: 0rem;
+  }
+
+  .exec-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+
+  .exec-profile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+  }
+
+  .exec-profile-picture{
+    width: 16em;
+    height: 16rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to bottom, darkblue, darkorchid) border-box;
+    border: 0.25rem solid transparent;
+
+  }
