@@ -9,7 +9,7 @@ function Navigationbar() {
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top" id="navbar">
                 <Container fluid>
                     <Navbar.Brand href="#home" className="nav-logo">
-                        <span><img alt="" src={logo} height='30px' vertical-align='text-bottom'/>McGill Student Boxing Club</span></Navbar.Brand>
+                        <span><img alt="" src={logo} height='30px'/>McGill Student Boxing Club</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">

@@ -1,0 +1,48 @@
+.membership-container{
+	display: flex;
+	padding-top: 4rem;
+	align-items: center;
+}
+
+img.members-pic{
+	height: 32.5rem;
+	width: 55rem;
+	object-fit: fill ;
+	background: linear-gradient(white, white) padding-box,
+    linear-gradient(to left, black, crimson) border-box;
+    border: 0.25rem solid transparent;
+	
+}
+
+.membership-info{
+	padding:3rem;
+	margin-right: 5rem;
+	background-color:rgba(230, 230, 230, 0.5);
+	border-radius: 3%;
+	box-shadow: -.1rem -.1rem 0.1rem crimson;
+}
+
+.membership-info h2{
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: auto;
+}
+
+.membership-info ul{
+	font-size: 1.25rem;
+	padding: 0.5rem;
+}
+
+.membership-info li{
+	padding-bottom: 0.2rem;
+}
+
+  .bag-list-logo {
+	margin: 0;
+	padding: 1.5rem 0 2rem 3.5rem;
+	list-style: none;
+	background-image: url("../data/list-icon.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 1.7rem;
+}
