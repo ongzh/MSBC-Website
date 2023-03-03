@@ -1,14 +1,20 @@
 import "../styles/Team.css"
-
+import fed from "../data/team/fed.png"
+import vic from "../data/team/vic.jpg"
+import rus from "../data/team/rus.jpg"
+import ong from "../data/team/ong.jpg"
+import est from "../data/team/est.jpg"
 
 
 const Profile = ({role, src, alt, title,name, experience, description }) => {
     return (
       <div className={{role}.role+"-profile-container"}>
-        <p>{title}</p>
+        
         <img src={src} alt={alt} className={{role}.role+"-profile-picture"} />
+        
         <div className="profile-info">
-          <h4>{name}</h4>
+          <h4 style={{color:"crimson", marginBottom:0}}>{name}</h4>
+          <h4>{title}</h4>
           <p>{experience}</p>
           <p>{description}</p>
         </div>
@@ -26,8 +32,8 @@ function Team(){
         <div className="coach-container">
         <Profile
         role="coach"
-        src=""
-        alt=""
+        src= {fed}
+        alt="fed"
         title="Coach"
         name="Federico Sanchez"
         experience="Former Professional Boxer"
@@ -35,9 +41,9 @@ function Team(){
       />
       <Profile
         role="coach"
-        src=""
+        src= {vic}
         alt=""
-        title="Coach/VP Marketing"
+        title="Coach + VP Marketing"
         name="Vicknesh Suresh"
         experience="Amateur Kickboxer"
         description="U2 CS & BIO"
@@ -46,7 +52,7 @@ function Team(){
       <div className="exec-container">
       <Profile
         role="exec"
-        src=""
+        src= {rus}
         alt=""
         title="VP Finance"
         name="Russell Chen"
@@ -54,7 +60,7 @@ function Team(){
       />
       <Profile
         role="exec"
-        src=""
+        src=  {ong}
         alt=""
         title="President (Retired)"
         name="Anthony Ong"
@@ -62,7 +68,7 @@ function Team(){
       />
       <Profile
         role="exec"
-        src=""
+        src= {est}
         alt=""
         title="VP Communications"
         name="Esther Gao"

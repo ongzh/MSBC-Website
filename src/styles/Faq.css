@@ -1,10 +1,22 @@
 
 #faq{
-    padding: 4rem;
     background-color:rgba(230, 230, 230, 0.5);
 }
 
+#faq-content{
+    padding: 4rem;
+    max-width:80rem;
+    margin:auto;
+}
 
-ul{
-    font-size: 1.5rem;
+
+h4{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
 }

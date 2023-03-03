@@ -14,7 +14,7 @@ function Membership(){
         </ul>
     <h2>Documents</h2>
     <ul style={{fontSize: "1.25rem"}}>
-        <li>Before you attend your first training session, please fill up the following <a href={waiver}>waiver form</a> and send it in to <a href="mailto:mcgillboxingclub@ssmu.ca">mcgillboxingclub@ssmu.ca</a>. Note that you have to submit the waiver form annualy.</li>
+        <li>Before you attend your first training session, please fill up the following <a href={waiver}>waiver form</a> and send it in to <a href="mailto:mcgillboxingclub@ssmu.ca">mcgillboxingclub@ssmu.ca</a>. Note that you have to submit the waiver form annually.</li>
     </ul>
 
     
