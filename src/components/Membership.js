@@ -10,7 +10,7 @@ function Membership(){
     <h1 className="section-header">Fall 2022-Winter 2023 Membership</h1>
     <div className="membership-container">
     
-    <div className='membership-info'>
+    <div className='membership-info-container'>
     <h2 >Membership fees</h2>
         <ul>
             <li className="bag-list-logo">Membership fees are $55 per semester or $100 for two semesters.</li>
@@ -22,7 +22,7 @@ function Membership(){
     </ul>
     </div>
 
-    <div style={{alignItems: "center"}}>
+    <div className="member-pic-container">
     <img src={members_pic} alt="" className="members-pic"></img>
     <p>Training session at the McGill Gym, circa Fall 2022</p>
     </div>
