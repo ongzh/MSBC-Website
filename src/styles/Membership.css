@@ -24,8 +24,7 @@ img.members-pic{
 	flex-basis: 45%;
 	padding:3rem;
 	background-color:rgba(230, 230, 230, 0.5);
-	border-radius: 3%;
-	
+	border-radius: 1%;
 }
 
 .membership-info-container h2{
