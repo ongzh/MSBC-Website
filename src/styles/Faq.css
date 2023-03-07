@@ -20,3 +20,9 @@ p{
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
 }
+
+@media (max-width:768px){
+    #faq-content{
+        padding:3rem;
+    }
+}

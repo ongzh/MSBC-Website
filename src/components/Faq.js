@@ -4,7 +4,6 @@ function Faq(){
     return <div id="faq">
         <div id="faq-content">
         <h1 className="section-header">Frequently Asked Questions</h1>
-        <br/>
         <h4>How do I join the club?</h4>
         <p >Simply show up to one of our training sessions and approach one of our friendly execs!</p>
         <h4>

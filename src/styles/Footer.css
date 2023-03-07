@@ -1,0 +1,54 @@
+.footer{
+background-color: rgba(30,30,30,1);
+padding-top: 1.2rem;
+
+}
+
+.media-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem
+}
+
+.media-icon{
+    width: 28%;
+    text-align: center;
+}
+
+.media-icon-img{
+    height: 3rem;
+    width: 3rem;
+    color: crimson;
+}
+
+.footer-logo{
+   display: block;
+   width:  6rem;
+   height: 6rem;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 1.2rem;
+}
+
+#copyright{
+    text-align: center;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  #credits{
+    font-weight:lighter;
+    text-align: right;
+    color: white;
+    font-size:0.6rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+  
+  }
+  
+  #ozh{
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: lightskyblue;
+  }

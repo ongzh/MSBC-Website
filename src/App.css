@@ -61,6 +61,7 @@ body{
   color:crimson;
   text-align: center;
   font-size: 2.2rem;
+  padding-bottom: 2rem;
 
 }
 
@@ -71,26 +72,4 @@ body{
   vertical-align: text-bottom;
 }
 
-#copyright{
-  text-align: center;
-  color: white;
-  font-size: 0.9rem;
-}
-
-#credits{
-  font-weight:lighter;
-  text-align: right;
-  color: white;
-  font-size:0.6rem;
-  padding-bottom: 1rem;
-  padding-right: 1rem;
-
-}
-
-#ozh{
-  font-family: 'Inter';
-  font-weight: bold;
-  font-size: 0.7rem;
-  color: lightskyblue;
-}
 

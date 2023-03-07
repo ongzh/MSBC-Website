@@ -55,13 +55,24 @@ img.members-pic{
 
 
 @media (max-width: 768px) {
+	#membership{
+		padding:0% !important;
+	}
+
+	.section-header{
+		padding-top: 2rem;
+		padding-bottom: 0rem;
+	}
+
 	.membership-container {
 	  flex-direction: column;
 	  align-items: center;
+	  padding-top: 0rem;
 	}
 
 	.membership-info-container{
-		margin-bottom: 3rem;
+		border-radius: 0%;
+		background-color: white;
 	}
 	
 	.member-pic-container {
