@@ -14,7 +14,7 @@ function Membership(){
     <h2 >Membership fees</h2>
         <ul>
             <li className="bag-list-logo">Membership fees are $55 per semester or $100 for two semesters.</li>
-            <li className="bag-list-logo">As a member, you're able to order training equipment through us at a 30% discount! Talk to one of our execs for more info.</li>
+            <li className="bag-list-logo">As a member, you are able to order training equipment through us at a discount rate! Talk to one of our execs for more info.</li>
             <li className="bag-list-logo" style={{color: "crimson"}}> Due to the increase in costs of room booking at the McGill Gym, post-covid, there has been an increase in prices of our membership fees in 2022. </li>
         </ul>
     <h2>Documents</h2>
