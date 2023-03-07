@@ -1,0 +1,58 @@
+#schedule-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1%;
+}
+
+#schedule-img-container{
+    flex-basis: 40%;
+}
+
+#schedule-img{
+    max-height: 40rem;
+    width:auto;
+	object-fit: fill ;
+    border-radius: 1%;
+    
+    
+}
+
+#schedule-info-container{
+    padding-top: 3rem;
+    width: 100%;
+}
+
+ul {
+    font-size: 1.3rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+
+@media (min-width: 500px) {
+	#schedule-info-container{
+	  width: 75%;
+	}
+
+}
+
+@media (min-width:1180px){
+    #schedule-box{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #schedule-info-container{
+        padding-left: 5rem;
+        flex-basis: 40%;
+    }
+    .semester-schedule{
+        padding-bottom: 5rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+}
