@@ -1,24 +1,39 @@
-import {Carousel} from "react-bootstrap";
-import displays from "./Displays"
+import "../styles/About.css";
+import load1 from "../data/about/load1.jpg";
+import load2 from "../data/about/load2.jpg";
+import load3 from "../data/about/load3.jpg";
+import load4 from "../data/about/load4.jpg";
 
-function display_boxers(){
-    return <div>
-        <Carousel controls={true}>
-            {displays.map(({src}) => <Carousel.Item interval={3500}><img src={src} alt={""} style={{display: "block", marginLeft: "auto", marginRight: "auto", width: "70vw", height: "auto", overflow: "hidden"}}/> </Carousel.Item>)}
-        </Carousel>
-    </div>;
-}
 
 function About() {
-    const intro = "We are a student-run club that aims to bring together both boxers and aspiring boxers of McGill University and provide trainings in a safe and social environment. The club is co-ed and people of all skill levels are welcome! ";
 
-    return <div id="about"  style={{padding: "5%",backgroundImage:  "linear-gradient(to bottom, rgba(30,30,30, 1) 55%, rgb(220,220, 220) 45%)"}}>
-        <h1 style={{fontSize: "calc(15px + 3vw)", paddingBottom: "2%", color: 'crimson'}}>About Us</h1>
-        <br/>
-        {display_boxers()}
-        <br/>
-        <p style={{fontSize: "2vw", textAlign: "center", color:"black"}}>{intro}</p>
-    </div>;
+  return (
+    <div
+      id="about"
+      style={{
+        padding: "5%",
+        backgroundColor: "rgba(250,250,250,0.7)"
+      }}
+    >
+       <h1 className="section-header">About Us</h1>
+      <div className="about-container">
+        <div className="about-info">
+          <h4 id="filler-text">Welcome to McGill Universty's student-run Boxing Club.</h4>
+            <p>
+            We are a student-run SSMU club that aims to bring together both boxers and aspiring boxers of McGill University. The club was established in 2012 to provide training for students in a safe and social environment. We conduct training twice a week at the McGill Gym and <strong>people of all skill levels are welcome!</strong>
+            </p>
+        </div>
+        <div className="about-img-container">
+          <img src={load1} alt=""></img>
+          <img src={load2} alt=""></img>
+          <img src={load3} alt=""></img>
+          <img src={load4} alt=""></img>
+        </div>
+      </div>
+      <div className="page-divider"></div>
+    </div>
+    
+  );
 }
 
 export default About;

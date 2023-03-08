@@ -1,7 +1,6 @@
 .membership-container{
 	display: flex;
 	justify-content: space-between;
-	padding-top: 4rem;
 	align-items: center;
 }
 
@@ -14,16 +13,17 @@ img.members-pic{
 	height: auto;
 	max-width: 100%;
 	object-fit: fill ;
-	background: linear-gradient(white, white) padding-box,
+	border-radius: 1%;
+	/* background: linear-gradient(white, white) padding-box,
     linear-gradient(to left, black, crimson) border-box;
-    border: 0.25rem solid transparent;
+    border: 0.25rem solid transparent;*/
 	
 }
 
 .membership-info-container{
 	flex-basis: 45%;
 	padding:3rem;
-	background-color:rgba(230, 230, 230, 0.5);
+	/*background-color:rgba(230, 230, 230, 0.5);*/
 	border-radius: 1%;
 }
 
@@ -58,10 +58,6 @@ img.members-pic{
 		padding:0% !important;
 	}
 
-	.section-header{
-		padding-top: 2rem;
-		padding-bottom: 0rem;
-	}
 
 	.membership-container {
 	  flex-direction: column;

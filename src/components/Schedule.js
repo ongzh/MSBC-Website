@@ -3,9 +3,9 @@ import "../styles/Schedule.css";
 
 
 function Schedule(){
-    return <div id="schedule" style={{padding: "7%", backgroundColor: "rgba(250, 250, 250, 0.7)"}}>
+    return <div id="schedule" style={{padding: "5%", backgroundColor: "rgba(250, 250, 250, 0.7)"}}>
         <h1 className="section-header">Training Schedule</h1>
-        <p>We try our best to update this schedule regularly. Follow us on social media for the latest updates! Our training schedule is usually only finalized 1-2 weeks into the start of the semester.</p>
+        <p>We try our best to update this schedule regularly. Follow us on social media for the latest updates! Our training schedule is usually only finalized 1-2 weeks <strong>after</strong> the start of the semester.</p>
         <div id="schedule-box">
             
             <div id="schdule-img-container">
