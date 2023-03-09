@@ -6,7 +6,7 @@ import ong from "../data/team/ong.jpg"
 import est from "../data/team/est.jpg"
 
 
-const Profile = ({role, src, alt, title,name, experience, description }) => {
+const Profile = ({role, src, alt, title,name, experience, major }) => {
     return (
       <div className={{role}.role+"-profile-container"}>
         
@@ -16,7 +16,7 @@ const Profile = ({role, src, alt, title,name, experience, description }) => {
           <h4 style={{color:"crimson", marginBottom:0}}>{name}</h4>
           <h4>{title}</h4>
           <p>{experience}</p>
-          <p>{description}</p>
+          <p>{major}</p>
         </div>
       </div>
     );
@@ -37,7 +37,7 @@ function Team(){
         title="Coach"
         name="Federico Sanchez"
         experience="Former Professional Boxer"
-        description="U2 Kinesiology"
+        major="U2 Kinesiology"
       />
       <Profile
         role="coach"
@@ -46,7 +46,7 @@ function Team(){
         title="Coach + VP Marketing"
         name="Vicknesh Suresh"
         experience="Amateur Kickboxer"
-        description="U2 CS & BIO"
+        major="U2 CS & BIO"
       />
       </div>
       <div className="exec-container">
@@ -56,15 +56,15 @@ function Team(){
         alt=""
         title="VP Finance"
         name="Russell Chen"
-        description="U2 Accounting"
+        major="U2 Accounting"
       />
       <Profile
         role="exec"
         src=  {ong}
         alt=""
-        title="President (Retired)"
+        title="President"
         name="Anthony Ong"
-        description="U4 CS & ECON"
+        major="U4 CS & ECON"
       />
       <Profile
         role="exec"
@@ -72,7 +72,7 @@ function Team(){
         alt=""
         title="VP Communications"
         name="Esther Gao"
-        description="U5+ LAW"
+        major="U5+ LAW"
       />
       </div>
     </div>;

@@ -14,8 +14,8 @@
   }
   
   .coach-profile-picture {
-    width: 20rem;
-    height: 20rem;
+    width: 16rem;
+    height: 16rem;
     object-fit: cover;
     border-radius: 50%;
     margin-bottom: 1rem;
@@ -28,8 +28,8 @@
     text-align: center;
   }
 
-  p{
-    margin-bottom: 0rem;
+  #team p{
+  margin-bottom: 0rem;
   }
 
   .exec-container{
@@ -44,9 +44,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 8rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
   }
 
@@ -60,4 +60,38 @@
     linear-gradient(to bottom, darkblue, darkorchid) border-box;
     border: 0.25rem solid transparent;
 
+  }
+
+  
+@media only screen and (min-device-width : 768px)
+ and (max-device-width: 1366px){
+    .coach-profile-container{
+      padding: 2rem;
+      padding-bottom: 0rem;
+    }
+
+    .coach-profile-picture{
+      width: 16rem;
+      height: 16rem;
+    }
+    .exec-profile-container{
+      padding: 2rem;
+      margin-bottom: 0rem;
+    }
+    .exec-profile-picture{
+      width: 15rem;
+      height: 15rem;
+    }
+    
+  }
+
+  @media only screen and (min-device-width: 1366px){
+    .coach-profile-container{
+      padding: 5rem;
+      padding-bottom: 0rem;
+    }
+    .exec-profile-container{
+      padding: 5rem;
+      padding-bottom: 2rem;
+    }
   }

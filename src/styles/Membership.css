@@ -53,9 +53,10 @@ img.members-pic{
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	#membership{
-		padding:0% !important;
+		padding-left: 0% !important;
+		padding-right: 0% !important;
 	}
 
 
