@@ -90,10 +90,21 @@
     .coach-profile-container{
       padding: 5rem;
       padding-bottom: 0rem;
+      padding-top: 2rem;
+    }
+
+    .coach-profile-container_picture{
+      width: 12rem;
+      height: 12rem;
     }
     .exec-profile-container{
       padding: 5rem;
       padding-bottom: 2rem;
+    }
+
+    .exec-profile-container_picture{
+      width: 12rem;
+      height: 12rem;
     }
   }
 
