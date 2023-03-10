@@ -10,7 +10,7 @@ const Profile = ({role, src, alt, title,name, experience, major }) => {
     return (
       <div className={{role}.role+"-profile-container"}>
         
-        <img src={src} alt={alt} className={{role}.role+"-profile-picture"} />
+        <img src={src} alt={alt} className={{role}.role+"-profile-container_picture"} />
         
         <div className="profile-info">
           <h4 style={{color:"crimson", marginBottom:0}}>{name}</h4>
