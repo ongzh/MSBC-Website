@@ -1,6 +1,6 @@
 import waiver from "../data/insurance.pdf"
 import "../styles/Membership.css"
-import members_pic from "../data/membership.jpg"
+import members_pic from "../data/schedule.jpg"
 
 
 //var interestForm = "https://forms.gle/AJnkozFkwJMctmRs9"
@@ -25,10 +25,10 @@ function Membership(){
 
     <div className="member-pic-container">
     <img src={members_pic} alt="" className="members-pic"></img>
-    <p>Training session at the McGill Gym, circa Fall 2022</p>
+    <p>Check out our new Hayabusa training gear!</p>
     </div>
-
     </div>
+    <div className="page-divider"></div>
 </div>;
 }
 

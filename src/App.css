@@ -73,3 +73,8 @@ body{
 }
 
 
+.page-divider{
+  height: 0.0625rem;
+  background-color: black;
+  margin-top: 5rem;
+}
