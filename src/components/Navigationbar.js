@@ -36,10 +36,11 @@ function NavigationBar(props) {
   
   const handleScroll = () => {
     // Check if the user has scrolled down more than 100 pixels from the top of the page
-    if (window.pageYOffset >1200){
+    if (window.pageYOffset >props.height){
+      console.log(props.height)
       setPassHeader(true);
     }
-    else if (window.pageYOffset < 1200){
+    else if (window.pageYOffset < props.height){
       setPassHeader(false);
     }
 

@@ -7,14 +7,17 @@ function Banner() {
     const bannerRef = useRef(null);
     const [bannerHeight, setBannerHeight] = useState(0);
 
-    useEffect (()=>{
+    const handleImageLoad = () => {
         setBannerHeight(bannerRef.current.offsetHeight);
+      };
+    
+      useEffect(() => {
         console.log(bannerHeight);
-    })
-
+      }, [bannerHeight]);
+    
     return <div id="home" ref={bannerRef}>
-        <Image src={banner} style={{backgroundSize: "cover" , minWidth: '100%'}} fluid/>
-        <NavigationBar height={bannerHeight}/>
+        <Image src={banner} style={{backgroundSize: "cover" , minWidth: '100%'}} fluid onLoad={handleImageLoad}/>
+        {bannerHeight >0 && <NavigationBar height={bannerHeight}/>}
     </div>;
 }
 
