@@ -1,9 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import NavBar from './components/NavBar';
+import NavigationBar from './components/NavigationBar';
 import About from './components/About'
-import Header from './components/Header';
+import Banner from './components/Banner';
 import Schedule from './components/Schedule';
 import Footer from './components/Footer';
 import Team from './components/Team';
@@ -16,8 +16,8 @@ function App() {
   
   return (
     <div>
-      <NavBar/>
-      <Header/>
+      <NavigationBar/>
+      <Banner/>
       <About/>
       <Schedule/>
       <Team/>
