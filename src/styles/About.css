@@ -20,12 +20,6 @@
     padding: 0.5%;
 }
 
-.page-divider{
-    height: 0.0625rem;
-    background-color: black;
-    margin-top: 5rem;
-}
-
 #filler-text{
     display: None;
     text-align: left;
