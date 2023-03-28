@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import ScrollspyNav from "react-scrollspy-nav";
 import logo from "../data/logos/punch-man-logo.png";
+import "../styles/Navigationbar.css"
 
 function NavigationBar(props) {
   const [showNav, setShowNav] = useState(false);
@@ -16,7 +17,7 @@ function NavigationBar(props) {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  },);
 
   useEffect(() => {
     if (pastHeader) {

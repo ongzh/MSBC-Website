@@ -1,7 +1,7 @@
 import {Image} from 'react-bootstrap';
 import banner from "../data/banner.png";
 import { useRef, useState, useEffect } from 'react';
-import NavigationBar from './NavigationBar';
+import NavigationBar from './Navigationbar';
 
 function Banner() {
     const bannerRef = useRef(null);
