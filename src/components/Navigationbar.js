@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import ScrollspyNav from "react-scrollspy-nav";
 import logo from "../data/logos/punch-man-logo.png";
-import "../styles/Navigationbar.css"
+import "../styles/Navigationbar.css";
 
 function NavigationBar(props) {
   const [showNav, setShowNav] = useState(false);
@@ -17,7 +17,7 @@ function NavigationBar(props) {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  },);
+  });
 
   useEffect(() => {
     if (pastHeader) {
@@ -38,7 +38,6 @@ function NavigationBar(props) {
   const handleScroll = () => {
     // Check if the user has scrolled down more than 100 pixels from the top of the page
     if (window.pageYOffset > props.height) {
-      console.log(props.height);
       setPassHeader(true);
     } else if (window.pageYOffset < props.height) {
       setPassHeader(false);

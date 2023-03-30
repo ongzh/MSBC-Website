@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-
 }
 
 .App-logo {
@@ -37,43 +36,36 @@
   }
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 1023px)
-  {
-      html{
-          font-size: 11px;
-      }
-      button{
-          margin: 0;
-      }
-
+@media only screen and (min-device-width: 375px) and (max-device-width: 1023px) {
+  html {
+    font-size: 11px;
+  }
+  button {
+    margin: 0;
+  }
 }
 
-body{
-  color:black;
-  font-family: 'Work Sans';
-  
+body {
+  color: black;
+  font-family: "Work Sans";
 }
 
-.section-header{
-  font-family: 'Work Sans';
-  color:crimson;
+.section-header {
+  font-family: "Work Sans";
+  color: crimson;
   text-align: center;
   font-size: 2.2rem;
   padding-bottom: 2rem;
-
 }
 
-.nav-logo{
+.nav-logo {
   color: crimson !important;
 }
-.nav-logo img{
+.nav-logo img {
   vertical-align: text-bottom;
 }
 
-
-.page-divider{
+.page-divider {
   height: 0.0625rem;
   background-color: black;
   margin-top: 5rem;
@@ -81,4 +73,70 @@ body{
 
 .navbar.hover {
   opacity: 1 !important;
+}
+
+.fade-in-r-to-l {
+  opacity: 0;
+  transform: translateX(0%);
+  animation: fadeInAnimationRL 5s ease-in-out forwards;
+}
+
+.fade-in-l-to-r {
+  opacity: 0;
+  transform: translateX(0%);
+  animation: fadeInAnimationLR 5s ease-in-out forwards;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(0%);
+  animation: fadeInAnimation 5s ease-in-out forwards;
+}
+
+.fade-in-btm-up {
+  opacity: 0;
+  transform: translateY(0%);
+  animation: fadeInAnimationBtmUp 5s ease-in-out forwards;
+}
+
+@keyframes fadeInAnimationRL {
+  from {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes fadeInAnimationLR {
+  from {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAnimationBtmUp {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }

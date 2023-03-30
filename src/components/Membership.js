@@ -1,6 +1,7 @@
 import waiver from "../data/files/insurance.pdf";
 import "../styles/Membership.css";
 import members_pic from "../data/schedule.jpg";
+import ScrollAnimation from "react-scroll-animation-wrapper";
 
 //var interestForm = "https://forms.gle/AJnkozFkwJMctmRs9"
 
@@ -48,7 +49,9 @@ function Membership() {
         </div>
 
         <div className="member-pic-container">
-          <img src={members_pic} alt="" className="members-pic"></img>
+          <ScrollAnimation animateIn="fade-in" offset={0}>
+            <img src={members_pic} alt="" className="members-pic"></img>
+          </ScrollAnimation>
           <p>Check out our new Hayabusa training gear!</p>
         </div>
       </div>
