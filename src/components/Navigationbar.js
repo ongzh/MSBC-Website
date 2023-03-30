@@ -36,13 +36,13 @@ function NavigationBar(props) {
   }, [hovering, showNav, pastHeader]);
 
   const handleScroll = () => {
-    // Check if the user has scrolled down more than 100 pixels from the top of the page
+    // if scrolled pass header then show nav is always true
     if (window.pageYOffset > props.height) {
       setPassHeader(true);
     } else if (window.pageYOffset < props.height) {
       setPassHeader(false);
     }
-
+    // if scrolled down pass 100 then show nav
     if (window.pageYOffset > 100) {
       setShowNav(true);
     } else {
@@ -94,6 +94,8 @@ function NavigationBar(props) {
             opacity: showNav ? 1 : 0,
             transform: showNav ? "translateY(0)" : "translateY(-100%)",
           }}
+          onMouseEnter={handleHoverEnter}
+          onMouseLeave={handleHoverLeave}
         >
           <Container fluid>
             <Navbar.Brand href="#home" className="nav-logo">
