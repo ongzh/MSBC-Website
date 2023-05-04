@@ -8,7 +8,9 @@ function Schedule() {
       id="schedule"
       style={{ padding: "5%", backgroundColor: "rgba(250, 250, 250, 0.7)" }}
     >
-      <h1 className="section-header">Training Schedule</h1>
+      <h1 className="section-header" tabIndex="0">
+        Training Schedule
+      </h1>
       <p>
         We try our best to update this schedule regularly. Follow us on social
         media for the latest updates! Our training schedule is usually only

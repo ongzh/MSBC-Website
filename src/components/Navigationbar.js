@@ -8,6 +8,7 @@ function NavigationBar(props) {
   const [showNav, setShowNav] = useState(false);
   const [hovering, setHovering] = useState(false);
   const [pastHeader, setPassHeader] = useState(false);
+  const [isFocused, setIsFocused] = useState(false);
 
   useEffect(() => {
     // Add a scroll event listener to the window to check if the user has scrolled down
@@ -20,7 +21,7 @@ function NavigationBar(props) {
   });
 
   useEffect(() => {
-    if (pastHeader) {
+    if (pastHeader || isFocused) {
       setShowNav(true);
     }
     // Check if the user is not hovering over the transparent div and the navbar is currently showing
@@ -33,7 +34,7 @@ function NavigationBar(props) {
       // Cancel the timeout if the user hovers over the navbar before it expires
       return () => clearTimeout(timeout);
     }
-  }, [hovering, showNav, pastHeader]);
+  }, [hovering, showNav, pastHeader, isFocused]);
 
   const handleScroll = () => {
     // if scrolled pass header then show nav is always true
@@ -42,7 +43,7 @@ function NavigationBar(props) {
     } else if (window.pageYOffset < props.height) {
       setPassHeader(false);
     }
-    // if scrolled down pass 100 then show nav
+    // if scrolled down pass 100 then show na
     if (window.pageYOffset > 100) {
       setShowNav(true);
     } else {
@@ -59,6 +60,15 @@ function NavigationBar(props) {
   const handleHoverLeave = () => {
     // Set the hovering state to false when the user unhovers from the transparent div
     setHovering(false);
+  };
+
+  const handleFocus = () => {
+    setIsFocused(true);
+    console.log("focused");
+  };
+
+  const handleBlur = () => {
+    setIsFocused(false);
   };
 
   return (
@@ -98,7 +108,12 @@ function NavigationBar(props) {
           onMouseLeave={handleHoverLeave}
         >
           <Container fluid>
-            <Navbar.Brand href="#home" className="nav-logo">
+            <Navbar.Brand
+              href="#home"
+              className="nav-logo"
+              onFocus={handleFocus}
+              onBlur={handleBlur}
+            >
               <span>
                 <img alt="" src={logo} height="30px" />
                 McGill Student Boxing Club
@@ -107,11 +122,37 @@ function NavigationBar(props) {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="ms-auto">
-                <Nav.Link href="#about">About</Nav.Link>
-                <Nav.Link href="#schedule">Schedule</Nav.Link>
-                <Nav.Link href="#team">Team</Nav.Link>
-                <Nav.Link href="#membership">Membership</Nav.Link>
-                <Nav.Link href="#faq">FAQ</Nav.Link>
+                <Nav.Link
+                  href="#about"
+                  onFocus={handleFocus}
+                  onBlur={handleBlur}
+                >
+                  About
+                </Nav.Link>
+                <Nav.Link
+                  href="#schedule"
+                  onFocus={handleFocus}
+                  onBlur={handleBlur}
+                >
+                  Schedule
+                </Nav.Link>
+                <Nav.Link
+                  href="#team"
+                  onFocus={handleFocus}
+                  onBlur={handleBlur}
+                >
+                  Team
+                </Nav.Link>
+                <Nav.Link
+                  href="#membership"
+                  onFocus={handleFocus}
+                  onBlur={handleBlur}
+                >
+                  Membership
+                </Nav.Link>
+                <Nav.Link href="#faq" onFocus={handleFocus} onBlur={handleBlur}>
+                  FAQ
+                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

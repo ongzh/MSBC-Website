@@ -14,7 +14,9 @@ function About() {
         backgroundColor: "rgba(250,250,250,0.7)",
       }}
     >
-      <h1 className="section-header">About Us</h1>
+      <h1 className="section-header" tabIndex="0">
+        About Us
+      </h1>
       <div className="about-container">
         <div className="about-info">
           <h4 id="filler-text">

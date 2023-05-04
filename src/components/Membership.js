@@ -16,7 +16,9 @@ function Membership() {
           "linear-gradient(rgb(250, 250, 250),rgb(230,230,230))",
       }}
     >
-      <h1 className="section-header">Fall 2022-Winter 2023 Membership</h1>
+      <h1 className="section-header" tabIndex="0">
+        Fall 2022-Winter 2023 Membership
+      </h1>
       <div className="membership-container">
         <div className="membership-info-container">
           <h2>Membership fees</h2>

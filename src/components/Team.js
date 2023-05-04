@@ -31,7 +31,9 @@ function Team() {
       id="team"
       style={{ padding: "5%", backgroundColor: "rgba(230, 230, 230, 0.5)" }}
     >
-      <h1 className="section-header">Meet the Team</h1>
+      <h1 className="section-header" tabIndex="0">
+        Meet the Team
+      </h1>
       <div className="coach-container">
         <ScrollAnimation animateIn="fade-in-l-to-r" offset={0}>
           <Profile

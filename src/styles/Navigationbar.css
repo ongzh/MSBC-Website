@@ -1,10 +1,14 @@
 .navbar.hover {
-    opacity: 1 !important;
-  }
-  
-.nav-logo{
-    color: crimson !important;
-  }
-  .nav-logo img{
-    vertical-align: text-bottom;
-  }
+  opacity: 1 !important;
+}
+
+.nav-logo {
+  color: crimson !important;
+}
+.nav-logo img {
+  vertical-align: text-bottom;
+}
+
+nav:focus-within ul {
+  opacity: 1;
+}
