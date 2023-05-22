@@ -14,14 +14,14 @@ function About() {
         backgroundColor: "rgba(250,250,250,0.7)",
       }}
     >
-      <h1 className="section-header" tabIndex="0">
+      <h2 className="section-header" tabIndex="0">
         About Us
-      </h1>
+      </h2>
       <div className="about-container">
         <div className="about-info">
-          <h4 id="filler-text">
+          <h1 id="filler-text">
             Welcome to McGill Universty's student-run Boxing Club.
-          </h4>
+          </h1>
           <p>
             We are a student-run SSMU club that aims to bring together both
             boxers and aspiring boxers of McGill University. The club was

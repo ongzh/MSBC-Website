@@ -1,28 +1,26 @@
-
-#faq{
-    background-color:rgba(230, 230, 230, 0.5);
+#faq {
+  background-color: rgba(230, 230, 230, 0.5);
 }
 
-#faq-content{
-    padding: 5rem;
-    max-width:80rem;
-    margin:auto;
+#faq-content {
+  padding: 5rem;
+  max-width: 80rem;
+  margin: auto;
 }
 
-
-h4{
-    font-size: 1.6rem;
-    text-align: center;
+h3 {
+  font-size: 1.6rem;
+  text-align: center;
 }
 
-p{
-    text-align: center;
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
 }
 
-@media (max-width:768px){
-    #faq-content{
-        padding:3rem;
-    }
+@media (max-width: 768px) {
+  #faq-content {
+    padding: 3rem;
+  }
 }

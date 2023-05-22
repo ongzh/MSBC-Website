@@ -16,12 +16,12 @@ function Membership() {
           "linear-gradient(rgb(250, 250, 250),rgb(230,230,230))",
       }}
     >
-      <h1 className="section-header" tabIndex="0">
+      <h2 className="section-header" tabIndex="0">
         Fall 2022-Winter 2023 Membership
-      </h1>
+      </h2>
       <div className="membership-container">
         <div className="membership-info-container">
-          <h2>Membership fees</h2>
+          <h3>Membership fees</h3>
           <ul>
             <li className="bag-list-logo">
               Membership fees are $55 per semester or $100 for two semesters.
@@ -37,7 +37,7 @@ function Membership() {
               fees in 2022.{" "}
             </li>
           </ul>
-          <h2>Documents</h2>
+          <h3>Documents</h3>
           <ul>
             <li className="bag-list-logo">
               Before you attend your first training session, please fill up the

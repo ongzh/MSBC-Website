@@ -16,8 +16,8 @@ const Profile = ({ role, src, alt, title, name, experience, major }) => {
       />
 
       <div className="profile-info">
-        <h4 style={{ color: "crimson", marginBottom: 0 }}>{name}</h4>
-        <h4>{title}</h4>
+        <h3 style={{ color: "crimson", marginBottom: 0 }}>{name}</h3>
+        <h3>{title}</h3>
         <p>{experience}</p>
         <p>{major}</p>
       </div>
