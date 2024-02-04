@@ -33,7 +33,7 @@ function Faq() {
         <h3>Do I show have to show up to both training sessions per week?</h3>
         <p>
           You can show up whenever you like. However, staying commited and
-          training regh3arly is the fastest way to improve!
+          training regularly is the fastest way to improve!
         </p>
         <h3>
           I can only show up to one session per week, can I get a discount in my
@@ -44,7 +44,7 @@ function Faq() {
           discount in membership.
         </p>
         <h3>
-          If i submitted the waiver last academic year, do I have to resubmit it
+          If I submitted the waiver last academic year, do I have to resubmit it
           again?
         </h3>
         <p>Yes, we will require you to resubmit it every academic year.</p>
