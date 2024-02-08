@@ -37,7 +37,7 @@ function Membership() {
               fees in 2022.{" "}
             </li>
           </ul>
-          <h3>Documents</h3>
+          <h3>Required documents</h3>
           <ul>
             <li className="bag-list-logo">
               Before you attend your first training session, please fill up the
