@@ -1,4 +1,5 @@
-import schedule from "../data/membership.jpg";
+// import schedule from "../data/membership.jpg";
+import members_pic from "../data/membership2.jpg";
 import "../styles/Schedule.css";
 import ScrollAnimation from "react-scroll-animation-wrapper";
 
@@ -23,12 +24,12 @@ function Schedule() {
         <div id="schedule-img-container">
           <ScrollAnimation animateIn="fade-in-l-to-r" offset={0}>
             <img
-              src={schedule}
+              src={members_pic}
               alt="training session at the gym"
               id="schedule-img"
             ></img>
           </ScrollAnimation>
-          <p>Training session at the McGill Gym, circa Fall 2022</p>
+          <p>Training session at the McGill Gym, circa Fall 2023</p>
         </div>
 
         <div id="schedule-info-container">
