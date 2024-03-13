@@ -1,10 +1,6 @@
 import "../styles/Team.css";
 // Keeping these here for reference
 // import fed from "../data/team/fed.png";
-import vic from "../data/team/vic.jpg";
-import rus from "../data/team/rus.jpg";
-import ong from "../data/team/ong.jpg";
-import est from "../data/team/est.jpg";
 
 import kevin from "../data/team2/kevin.jpeg";
 import sami2 from "../data/team2/sami2.jpeg";
