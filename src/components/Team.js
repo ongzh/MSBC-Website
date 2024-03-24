@@ -1,9 +1,14 @@
 import "../styles/Team.css";
-import fed from "../data/team/fed.png";
-import vic from "../data/team/vic.jpg";
-import rus from "../data/team/rus.jpg";
-import ong from "../data/team/ong.jpg";
-import est from "../data/team/est.jpg";
+// Keeping these here for reference
+// import fed from "../data/team/fed.png";
+
+import kevin from "../data/team2/kevin.png";
+import sami2 from "../data/team2/sami2.jpeg";
+import alex from "../data/team2/alex.jpg";
+import alessia from "../data/team2/alessia.jpeg";
+import fed from "../data/team2/fed.jpg";
+import russel from "../data/team2/russel.jpeg";
+import christy from "../data/team2/christy.jpeg";
 import ScrollAnimation from "react-scroll-animation-wrapper";
 
 const Profile = ({ role, src, alt, title, name, experience, major }) => {
@@ -43,18 +48,29 @@ function Team() {
             title="Coach"
             name="Federico Sanchez"
             experience="Former Professional Boxer"
-            major="U2 Kinesiology"
+            major="U3 Kinesiology"
+          />
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fade-in" offset={0}>
+          <Profile
+            role="coach"
+            src={sami2}
+            alt=""
+            title="Coach"
+            name="Sami Azhari"
+            experience="Underdog Boxing"
+            major="U3 Kinesiology"
           />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fade-in-r-to-l" offset={0}>
           <Profile
             role="coach"
-            src={vic}
-            alt=""
-            title="Coach + VP Marketing"
-            name="Vicknesh Suresh"
-            experience="Amateur Kickboxer"
-            major="U2 CS & BIO"
+            src={alex}
+            alt="Alex"
+            title="Coach"
+            name="Alexander Moghadam"
+            experience="Amateur Boxer"
+            major="U1 Desautel"
           />
         </ScrollAnimation>
       </div>
@@ -62,31 +78,42 @@ function Team() {
         <ScrollAnimation animateIn="fade-in-l-to-r" offset={0}>
           <Profile
             role="exec"
-            src={rus}
+            src={russel}
             alt=""
             title="VP Finance"
             name="Russell Chen"
-            major="U2 Accounting"
+            major="U3 Accounting"
           />
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fade-in-btm-up" offset={0}>
+
+        <ScrollAnimation animateIn="fade-in" offset={0}>
           <Profile
             role="exec"
-            src={ong}
-            alt=""
-            title="President"
-            name="Anthony Ong"
-            major="U4 CS & ECON"
+            src={kevin}
+            alt="Kev"
+            title="VP Events"
+            name="Kevin Liu"
+            major="U1 CS"
+          />
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fade-in" offset={0}>
+          <Profile
+            role="exec"
+            src={alessia}
+            alt="Alessia"
+            title="VP Communications"
+            name="Alessia Chehab"
+            major="U2 IT & Entrepreneurship"
           />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fade-in-r-to-l" offset={0}>
           <Profile
             role="exec"
-            src={est}
-            alt=""
-            title="VP Communications"
-            name="Esther Gao"
-            major="U5+ LAW"
+            src={christy}
+            alt="Christy"
+            title="VP Events"
+            name="Christy Abou Jaoude"
+            major="U2 Finance"
           />
         </ScrollAnimation>
       </div>

@@ -1,5 +1,6 @@
 import waiver from "../data/files/insurance.pdf";
 import "../styles/Membership.css";
+
 import members_pic from "../data/schedule.jpg";
 import ScrollAnimation from "react-scroll-animation-wrapper";
 
