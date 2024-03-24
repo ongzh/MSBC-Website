@@ -5,7 +5,6 @@ import "../styles/Team.css";
 import kevin from "../data/team2/kevin.png";
 import sami2 from "../data/team2/sami2.jpeg";
 import alex from "../data/team2/alex.jpg";
-import def from "../data/team2/default.jpg";
 import alessia from "../data/team2/alessia.jpeg";
 import fed from "../data/team2/fed.jpg";
 import russel from "../data/team2/russel.jpeg";
