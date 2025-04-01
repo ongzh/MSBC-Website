@@ -2,7 +2,7 @@ import "../styles/Team.css";
 // Keeping these here for reference
 // import fed from "../data/team/fed.png";
 
-import kevin from "../data/team3/kevin2024.png";
+import kevin from "../data/team3/kevin2024.jpg";
 import albert from "../data/team3/albert.png"
 import jack from "../data/team3/jack.png"
 import alex from "../data/team2/alex.jpg";
