@@ -11,11 +11,12 @@ function About() {
       id="about"
       style={{
         padding: "5%",
-        backgroundColor: "rgba(250,250,250,0.7)",
+        backgroundColor: "rgb(20, 7, 7)",
+        
       }}
     >
       <h2 className="section-header" tabIndex="0">
-        About Us
+        ABOUT US
       </h2>
       <div className="about-container">
         <div className="about-info">

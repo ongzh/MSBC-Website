@@ -89,7 +89,7 @@ function NavigationBar(props) {
       {/* Navbar that hides/shows based on the showNav state */}
       <ScrollspyNav
         offset={-20}
-        scrollTargetIds={["about", "schedule", "team", "membership", "faq"]}
+        scrollTargetIds={["about", "schedule", "team", "membership", "past_team", "faq", "footer"]}
         activeNavClass="active"
         scrollDuration="100"
       >
@@ -116,7 +116,7 @@ function NavigationBar(props) {
             >
               <span>
                 <img alt="" src={logo} height="30px" />
-                McGill Student Boxing Club
+                McGill STUDENT BOXING CLUB
               </span>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -150,8 +150,23 @@ function NavigationBar(props) {
                 >
                   Membership
                 </Nav.Link>
+                
                 <Nav.Link href="#faq" onFocus={handleFocus} onBlur={handleBlur}>
                   FAQ
+                </Nav.Link>
+                <Nav.Link
+                  href="#past_team"
+                  onFocus={handleFocus}
+                  onBlur={handleBlur}
+                >
+                  Past Teams
+                </Nav.Link>
+                <Nav.Link
+                  href="#footer"
+                  onFocus={handleFocus}
+                  onBlur={handleBlur}
+                >
+                  Contact Us
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>

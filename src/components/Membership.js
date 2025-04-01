@@ -25,7 +25,7 @@ function Membership() {
           <h3>Membership fees</h3>
           <ul>
             <li className="bag-list-logo">
-              Membership fees are $55 per semester or $100 for two semesters.
+              Membership fees are $65 per semester or $130 for two semesters.
             </li>
             <li className="bag-list-logo">
               As a member, you are able to order training equipment through us
@@ -34,8 +34,8 @@ function Membership() {
             <li className="bag-list-logo" style={{ color: "crimson" }}>
               {" "}
               Due to the increase in costs of room booking at the McGill Gym,
-              post-covid, there has been an increase in prices of our membership
-              fees in 2022.{" "}
+              there has been an increase in prices of our membership
+              fees in 2024.{" "}
             </li>
           </ul>
           <h3>Required documents</h3>

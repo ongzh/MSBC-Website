@@ -1,6 +1,9 @@
 .about-container {
   display: flex;
   flex-direction: column;
+  color: rgb(247, 247, 247);
+  text-transform: uppercase;
+  text-align: justify;
 }
 
 .about-img-container {
@@ -22,12 +25,12 @@
   display: None;
   text-align: left;
   font-weight: bold;
-  color: crimson;
+  color: rgb(255, 0, 51);
 }
 
 .page-divider {
   height: 0.0625rem;
-  background-color: black;
+  background-color: rgb(236, 236, 236);
   margin-top: 5rem;
 }
 
@@ -50,7 +53,7 @@
     text-align: left;
     margin-left: 2rem;
     margin-bottom: 2rem;
-    border-bottom: 0.13rem solid black;
+    border-bottom: 0.13rem solid rgb(255, 255, 255);
   }
 
   .about-info {

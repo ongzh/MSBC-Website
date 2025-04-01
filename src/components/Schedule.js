@@ -1,5 +1,6 @@
 // import schedule from "../data/membership.jpg";
-import members_pic from "../data/membership2.jpg";
+import members_pic2023 from "../data/membership2.jpg";
+import members_pic2025 from "../data/members2025.jpg";
 import "../styles/Schedule.css";
 import ScrollAnimation from "react-scroll-animation-wrapper";
 
@@ -24,27 +25,34 @@ function Schedule() {
         <div id="schedule-img-container">
           <ScrollAnimation animateIn="fade-in-l-to-r" offset={0}>
             <img
-              src={members_pic}
+              src={members_pic2023}
               alt="training session at the gym"
               id="schedule-img"
-            ></img>
+            >
+            </img>
+            <img
+              src={members_pic2025}
+              alt="training session at the gym"
+              id="schedule-img"
+            >
+            </img>
           </ScrollAnimation>
-          <p>Training session at the McGill Gym, circa Fall 2023</p>
+          <p>Training session at the McGill Gym,  Fall 2023(Above) Winter 2025(Below)</p>
         </div>
 
         <div id="schedule-info-container">
           <div id="schedule-info">
-            <h2> Winter 2024</h2>
+            <h2> Fall 2024</h2>
             <ul className="semester-schedule">
-              <li>Fridays: 4:30P.M.- 6:00P.M. (Starting Sept 23)</li>
+              <li>Fridays: 4:30P.M.- 6:00P.M. </li>
               <li>Sundays: 4:30P.M. - 6:30P.M.</li>
               <li>Location: Spin Room (Inside the McGill Gym, B2)</li>
             </ul>
             <br />
-            <h2> Fall 2024</h2>
+            <h2> Winter 2025</h2>
             <ul className="semester-schedule">
-              <li>TBA</li>
-              <li>TBA</li>
+              <li>Fridays: 4:30P.M.- 6:00P.M.</li>
+              <li>Sundays: 4:30P.M. - 6:30P.M.</li>
               <li>Location: Spin Room (Inside the McGill Gym, B2)</li>
             </ul>
             <br />

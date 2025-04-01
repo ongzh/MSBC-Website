@@ -30,14 +30,14 @@ const Profile = ({ role, src, alt, title, name, experience, major }) => {
   );
 };
 
-function Team() {
+function Team2023() {
   return (
     <div
-      id="team"
+      id="past_team"
       style={{ padding: "5%", backgroundColor: "rgba(230, 230, 230, 0.5)" }}
     >
       <h1 className="section-header" tabIndex="0">
-        Meet the Team
+        2023-2024 PAST TEAM
       </h1>
       <div className="coach-container">
         <ScrollAnimation animateIn="fade-in-l-to-r" offset={0}>
@@ -121,4 +121,4 @@ function Team() {
   );
 }
 
-export default Team;
+export default Team2023;

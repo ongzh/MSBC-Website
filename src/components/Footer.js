@@ -8,7 +8,7 @@ import "../styles/Footer.css";
 
 function Footer() {
 	return (
-		<div className="footer" style={{ backgroundColor: "rgba(30,30,30,1)" }}>
+		<div id="footer" className="footer" style={{ backgroundColor: "rgba(30,30,30,1)" }}>
 			<img src={logo} alt="" className="footer-logo"></img>
 			<div className="media-container">
 				<a
@@ -30,7 +30,7 @@ function Footer() {
 					<AiOutlineMail className="media-icon-img" />
 				</a>
 			</div>
-			<div id="copyright">&copy; McGill Student Boxing Club 2022</div>
+			<div id="copyright">&copy; McGill Student Boxing Club 2025</div>
 			<div id="credits">
 				Designed & Developed by{" "}
 				<a
