@@ -18,7 +18,7 @@ function Membership() {
       }}
     >
       <h2 className="section-header" tabIndex="0">
-        Fall 2022-Winter 2023 Membership
+        Fall 2024 & Winter 2025 Membership
       </h2>
       <div className="membership-container">
         <div className="membership-info-container">
